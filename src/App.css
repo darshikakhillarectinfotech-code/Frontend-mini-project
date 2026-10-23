@@ -1,0 +1,35 @@
+/* App.css mein body/html ko aise update karein */
+body, html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100vh;
+  /* Unsplash High Quality Nature/Travel Background */
+  background: linear-gradient(
+      rgba(248, 250, 252, 0.85), 
+      rgba(248, 250, 252, 0.85)
+    ), 
+    url('https://images.unsplash.com/photo-1768728410263-9fa72c338a90?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.parent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 20px;
+  box-sizing: border-box;
+}
+
+.cards-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  flex-wrap: wrap;
+  width: 100%;
+  max-width: 1200px;
+}
