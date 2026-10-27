@@ -3,7 +3,7 @@ body, html {
   margin: 0;
   padding: 0;
   width: 100%;
-  min-height: 100vh;
+  min-height: 100%;
   /* Unsplash High Quality Nature/Travel Background */
   background: linear-gradient(
       rgba(248, 250, 252, 0.85), 
@@ -13,14 +13,6 @@ body, html {
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-}
-
-.parent {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 40px 20px;
-  box-sizing: border-box;
 }
 
 .cards-container {
