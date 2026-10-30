@@ -127,7 +127,7 @@
   justify-content: space-between;
   color: rgb(238, 236, 236);
   background: linear-gradient(rgb(233, 15, 69),rgb(255, 14, 126));
-  
+  cursor : pointer;
   border: 0px;
   border-radius: 10px;
   padding-top: 10px;

@@ -5,14 +5,15 @@ body, html {
   width: 100%;
   min-height: 100%;
   /* Unsplash High Quality Nature/Travel Background */
-  background: linear-gradient(
+  /* background: linear-gradient(
       rgba(248, 250, 252, 0.85), 
       rgba(248, 250, 252, 0.85)
-    ), 
-    url('https://images.unsplash.com/photo-1768728410263-9fa72c338a90?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D');
-  background-size: cover;
+    ),  */
+   /* url('https://images.unsplash.com/photo-1768728410263-9fa72c338a90?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D'); */
+  background: url('https://images.pexels.com/photos/7054786/pexels-photo-7054786.jpeg');
+  background-size: 100%;
   background-position: center;
-  background-attachment: fixed;
+  background-attachment:fixed;
 }
 
 .cards-container {
